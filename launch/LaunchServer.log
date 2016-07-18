@@ -1648,3 +1648,26 @@ sashok724's LaunchServer v15.2.1 (build #21, 12.07.2016)
 2016.07.18 17:46:48 [INFO] Closing server socket listener
 2016.07.18 17:46:48 [INFO] Writing auth handler file (1 entries)
 2016.07.18 17:46:48 [INFO] LaunchServer stopped
+sashok724's LaunchServer v15.2.1 (build #21, 12.07.2016)
+2016.07.19 00:12:48 [INFO] Setting up server script engine bindings
+2016.07.19 00:12:49 [INFO] JLine2 terminal enabled
+2016.07.19 00:12:49 [INFO] Reading RSA keypair
+2016.07.19 00:12:49 [INFO]  Modulus CRC32: 0x34ee4a58
+2016.07.19 00:12:49 [INFO] Reading LaunchServer config file
+2016.07.19 00:12:49 [INFO] Reading auth handler file: 'authHandler.cfg'
+2016.07.19 00:12:49 [INFO] Syncing launcher binaries
+2016.07.19 00:12:49 [INFO]  Syncing launcher binary file
+2016.07.19 00:12:49 [INFO]  Syncing launcher EXE binary file
+2016.07.19 00:12:49 [WARN]  Missing launcher EXE binary file
+2016.07.19 00:12:49 [INFO] Syncing updates dir
+2016.07.19 00:12:49 [INFO]  Syncing 'jre-8u92-win64' update dir
+2016.07.19 00:12:53 [INFO]  Syncing 'jre-8u92-win32' update dir
+2016.07.19 00:12:57 [INFO]  Syncing 'jre-8u92-linux64' update dir
+2016.07.19 00:12:59 [INFO]  Syncing 'jre-8u92-macosx' update dir
+2016.07.19 00:13:01 [INFO]  Syncing 'SilverHoof' update dir
+2016.07.19 00:13:02 [INFO]  Syncing 'asset1.7.10' update dir
+2016.07.19 00:13:07 [INFO]  Syncing 'jre-8u92-linux32' update dir
+2016.07.19 00:13:12 [INFO] Syncing profiles dir
+2016.07.19 00:13:12 [INFO]  Syncing 'SilverHoof.cfg' profile
+2016.07.19 00:13:12 [INFO] Starting server socket thread
+2016.07.19 00:13:12 [INFO] Server socket thread successfully started
