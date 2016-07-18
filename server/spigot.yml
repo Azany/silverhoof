@@ -13,13 +13,13 @@
 config-version: 7
 settings:
   bungeecord: false
-  netty-threads: -1
   late-bind: false
   sample-count: 12
   fullMatchRate: 10
   timeout-time: 90
   restart-on-crash: true
   restart-script: ./start.sh
+  netty-threads: -1
   player-shuffle: 0
 commands:
   log: true
@@ -88,9 +88,10 @@ world-settings:
       tile: 50
       entity: 50
     max-tnt-per-tick: 100
+    zombie-aggressive-towards-villager: true
+    view-distance: 10
     chunks-per-tick: 650
     clear-tick-list: false
-    view-distance: 10
     merge-radius:
       exp: 3.0
       item: 2.5
@@ -98,4 +99,3 @@ world-settings:
     item-despawn-rate: 6000
     enable-zombie-pigmen-portal-spawns: true
     arrow-despawn-rate: 1200
-    zombie-aggressive-towards-villager: true
