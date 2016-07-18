@@ -1,108 +1,106 @@
-[14:40:16] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLServerTweaker
-[14:40:17] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLServerTweaker
-[14:40:17] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLServerTweaker
-[14:40:17] [main/INFO]: Forge Mod Loader version 7.99.4.1614 for Minecraft 1.7.10 loading
-[14:40:18] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_91, running on Linux:amd64:3.16.0-4-amd64, installed at /usr/lib/jvm/java-8-oracle/jre
-[14:40:18] [main/INFO]: [pw.prok.imagine.ImagineLoadingPlugin:<clinit>:26]: Loading plugin initialized!
-[14:40:23] [main/INFO]: [codechicken.core.launch.DepLoader$DepLoadInst:checkExisting:436]: Warning: version of CodeChickenLib, 1.1.3.140 is newer than request 1.1.3.138
-[14:40:23] [main/WARN]: The following coremods do not have a @MCVersion annotation. They may cause problems if this is not the correct version of Minecraft for them.
-[14:40:23] [main/WARN]: Missing @MCVersion: codechicken.core.launch.CodeChickenCorePlugin  codechicken.nei.asm.NEICorePlugin  
-[14:40:23] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[14:40:23] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[14:40:23] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[14:40:23] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[14:40:23] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[14:40:26] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[14:40:26] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[14:40:26] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[14:40:26] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[14:40:26] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[14:40:27] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[14:40:27] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
-[14:40:27] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
-[14:40:28] [main/INFO]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[14:40:32] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[14:40:32] [Server thread/INFO]: Attempting early MinecraftForge initialization
-[14:40:32] [Server thread/INFO]: MinecraftForge v10.13.4.1614 Initialized
-[14:40:32] [Server thread/INFO]: Replaced 183 ore recipies
-[14:40:32] [Server thread/INFO]: Completed early MinecraftForge initialization
-[14:40:32] [Server thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
-[14:40:32] [Server thread/INFO]: Searching /home/minecraft/silverhoof/server/mods for mods
-[14:40:32] [Server thread/INFO]: Also searching /home/minecraft/silverhoof/server/mods/1.7.10 for mods
-[14:40:33] [Server thread/INFO]: Forge Mod Loader has identified 6 mods to load
-[14:40:33] [Server thread/INFO]: FML has found a non-mod file CodeChickenLib-1.7.10-1.1.3.140-universal.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
-[14:40:33] [Server thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, CodeChickenCore, NotEnoughItems] at CLIENT
-[14:40:33] [Server thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, CodeChickenCore, NotEnoughItems] at SERVER
-[14:40:34] [Server thread/INFO]: Processing ObjectHolder annotations
-[14:40:34] [Server thread/INFO]: Found 341 ObjectHolder annotations
-[14:40:34] [Server thread/INFO]: Identifying ItemStackHolder annotations
-[14:40:34] [Server thread/INFO]: Found 0 ItemStackHolder annotations
-[14:40:34] [Server thread/INFO]: Configured a dormant chunk cache size of 0
-[14:40:34] [Server thread/INFO]: Applying holder lookups
-[14:40:34] [Server thread/INFO]: Holder lookups applied
-[14:40:34] [Server thread/INFO]: Injecting itemstacks
-[14:40:34] [Server thread/INFO]: Itemstack injection complete
-[14:40:34] [Server thread/INFO]: Loading properties
-[14:40:34] [Server thread/INFO]: Default game type: SURVIVAL
-[14:40:35] [Server thread/INFO]: This server is running KCauldron version 1.7.10-R0.1-SNAPSHOT (MC: 1.7.10) (Implementing API version 1.7.10-R0.1-SNAPSHOT)
-[14:40:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:40:36] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:40:36] [Server thread/INFO]: Generating keypair
-[14:40:36] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:40:36] [Server thread/INFO]: Injecting itemstacks
-[14:40:36] [Server thread/INFO]: Itemstack injection complete
-[14:40:37] [Server thread/INFO]: Forge Mod Loader has successfully loaded 6 mods
-[14:40:37] [Server thread/INFO]: Preparing level "world"
-[14:40:37] [Server thread/INFO]: Registered command debug with permission node vanilla.command.debug
-[14:40:37] [Server thread/INFO]: Registered command spreadplayers with permission node vanilla.command.spreadplayers
-[14:40:37] [Server thread/INFO]: Registered command playsound with permission node vanilla.command.playsound
-[14:40:37] [Server thread/INFO]: Registered command scoreboard with permission node vanilla.command.scoreboard
-[14:40:37] [Server thread/INFO]: Registered command achievement with permission node vanilla.command.achievement
-[14:40:37] [Server thread/INFO]: Registered command summon with permission node vanilla.command.summon
-[14:40:37] [Server thread/INFO]: Registered command setblock with permission node vanilla.command.setblock
-[14:40:37] [Server thread/INFO]: Registered command testforblock with permission node vanilla.command.testforblock
-[14:40:37] [Server thread/INFO]: Registered command tellraw with permission node vanilla.command.tellraw
-[14:40:37] [Server thread/INFO]: Registered command netstat with permission node vanilla.command.netstat
-[14:40:37] [Server thread/INFO]: Injecting existing block and item data into this server instance
-[14:40:37] [Server thread/INFO]: Applying holder lookups
-[14:40:37] [Server thread/INFO]: Holder lookups applied
-[14:40:38] [Server thread/INFO]: Mapping loaded 11 packages, 7841 classes, 26711 fields, 53884 methods, flags 1ffa
-[14:40:38] [Server thread/INFO]: Loaded inheritance map of 895 classes
-[14:40:38] [Server thread/WARN]: =============================================================
-[14:40:38] [Server thread/WARN]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
-[14:40:38] [Server thread/WARN]: Offendor: net/md_5/specialsource/SpecialSource.main([Ljava/lang/String;)V
-[14:40:38] [Server thread/WARN]: Use FMLCommonHandler.exitJava instead
-[14:40:38] [Server thread/WARN]: =============================================================
-[14:40:38] [Server thread/WARN]: =============================================================
-[14:40:38] [Server thread/WARN]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
-[14:40:38] [Server thread/WARN]: Offendor: net/md_5/specialsource/SpecialSource.main([Ljava/lang/String;)V
-[14:40:38] [Server thread/WARN]: Use FMLCommonHandler.exitJava instead
-[14:40:38] [Server thread/WARN]: =============================================================
-[14:40:38] [Server thread/WARN]: =============================================================
-[14:40:38] [Server thread/WARN]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
-[14:40:38] [Server thread/WARN]: Offendor: net/md_5/specialsource/SpecialSource.main([Ljava/lang/String;)V
-[14:40:38] [Server thread/WARN]: Use FMLCommonHandler.exitJava instead
-[14:40:38] [Server thread/WARN]: =============================================================
-[14:40:38] [Server thread/WARN]: =============================================================
-[14:40:38] [Server thread/WARN]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
-[14:40:38] [Server thread/WARN]: Offendor: net/md_5/specialsource/SpecialSource.main([Ljava/lang/String;)V
-[14:40:38] [Server thread/WARN]: Use FMLCommonHandler.exitJava instead
-[14:40:38] [Server thread/WARN]: =============================================================
-[14:40:40] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.3;7a097ca
-[14:40:40] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1.2;e38d98d
-[14:40:40] [Server thread/INFO]: [CraftBook] Loading CraftBook v3.9-SNAPSHOT
-[14:40:41] [Server thread/INFO]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@13538124)
-[14:40:41] [Server thread/INFO]: Loading dimension 1 (DIM1) (net.minecraft.server.dedicated.DedicatedServer@13538124)
-[14:40:41] [Server thread/INFO]: Loading dimension -1 (DIM-1) (net.minecraft.server.dedicated.DedicatedServer@13538124)
-[14:40:41] [Server thread/INFO]: Preparing start region for level 0
-[14:40:42] [Server thread/INFO]: Preparing spawn area: 15%
-[14:40:43] [Server thread/INFO]: Preparing spawn area: 33%
-[14:40:44] [Server thread/INFO]: Preparing spawn area: 78%
-[14:40:45] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.3;7a097ca
-[14:40:48] [Server thread/INFO]: [WorldEdit] Default configuration file written: config.yml
-[14:40:48] [Server thread/INFO]: WEPIF: Updated config file
-[14:40:48] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[14:40:48] [Server thread/WARN]: [WorldEdit] 
+[16:29:02] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLServerTweaker
+[16:29:02] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLServerTweaker
+[16:29:02] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLServerTweaker
+[16:29:02] [main/INFO]: Forge Mod Loader version 7.99.4.1614 for Minecraft 1.7.10 loading
+[16:29:03] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_91, running on Linux:amd64:3.16.0-4-amd64, installed at /usr/lib/jvm/java-8-oracle/jre
+[16:29:03] [main/INFO]: [pw.prok.imagine.ImagineLoadingPlugin:<clinit>:26]: Loading plugin initialized!
+[16:29:08] [main/INFO]: [codechicken.core.launch.DepLoader$DepLoadInst:checkExisting:436]: Warning: version of CodeChickenLib, 1.1.3.140 is newer than request 1.1.3.138
+[16:29:09] [main/WARN]: The following coremods do not have a @MCVersion annotation. They may cause problems if this is not the correct version of Minecraft for them.
+[16:29:09] [main/WARN]: Missing @MCVersion: codechicken.core.launch.CodeChickenCorePlugin  codechicken.nei.asm.NEICorePlugin  
+[16:29:09] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:29:09] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[16:29:09] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:29:09] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:29:09] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:29:11] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:29:11] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:29:11] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:29:12] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:29:12] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:29:12] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[16:29:12] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[16:29:12] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[16:29:13] [main/INFO]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[16:29:17] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[16:29:17] [Server thread/INFO]: Attempting early MinecraftForge initialization
+[16:29:17] [Server thread/INFO]: MinecraftForge v10.13.4.1614 Initialized
+[16:29:17] [Server thread/INFO]: Replaced 183 ore recipies
+[16:29:17] [Server thread/INFO]: Completed early MinecraftForge initialization
+[16:29:17] [Server thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[16:29:17] [Server thread/INFO]: Searching /home/minecraft/silverhoof/server/mods for mods
+[16:29:17] [Server thread/INFO]: Also searching /home/minecraft/silverhoof/server/mods/1.7.10 for mods
+[16:29:18] [Server thread/INFO]: Forge Mod Loader has identified 6 mods to load
+[16:29:18] [Server thread/INFO]: FML has found a non-mod file CodeChickenLib-1.7.10-1.1.3.140-universal.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[16:29:18] [Server thread/INFO]: FML has found a non-mod file worldedit-forge-mc1.9.4-6.1.3-dist.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[16:29:19] [Server thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, CodeChickenCore, NotEnoughItems] at CLIENT
+[16:29:19] [Server thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, CodeChickenCore, NotEnoughItems] at SERVER
+[16:29:19] [Server thread/INFO]: Processing ObjectHolder annotations
+[16:29:19] [Server thread/INFO]: Found 341 ObjectHolder annotations
+[16:29:19] [Server thread/INFO]: Identifying ItemStackHolder annotations
+[16:29:19] [Server thread/INFO]: Found 0 ItemStackHolder annotations
+[16:29:19] [Server thread/INFO]: Configured a dormant chunk cache size of 0
+[16:29:19] [Server thread/INFO]: Applying holder lookups
+[16:29:19] [Server thread/INFO]: Holder lookups applied
+[16:29:19] [Server thread/INFO]: Injecting itemstacks
+[16:29:19] [Server thread/INFO]: Itemstack injection complete
+[16:29:19] [Server thread/INFO]: Loading properties
+[16:29:19] [Server thread/INFO]: Default game type: SURVIVAL
+[16:29:20] [Server thread/INFO]: This server is running KCauldron version 1.7.10-R0.1-SNAPSHOT (MC: 1.7.10) (Implementing API version 1.7.10-R0.1-SNAPSHOT)
+[16:29:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:29:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:29:20] [Server thread/INFO]: Generating keypair
+[16:29:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:29:21] [Server thread/INFO]: Injecting itemstacks
+[16:29:21] [Server thread/INFO]: Itemstack injection complete
+[16:29:21] [Server thread/INFO]: Forge Mod Loader has successfully loaded 6 mods
+[16:29:21] [Server thread/INFO]: Preparing level "world"
+[16:29:21] [Server thread/INFO]: Registered command debug with permission node vanilla.command.debug
+[16:29:21] [Server thread/INFO]: Registered command spreadplayers with permission node vanilla.command.spreadplayers
+[16:29:21] [Server thread/INFO]: Registered command playsound with permission node vanilla.command.playsound
+[16:29:21] [Server thread/INFO]: Registered command scoreboard with permission node vanilla.command.scoreboard
+[16:29:21] [Server thread/INFO]: Registered command achievement with permission node vanilla.command.achievement
+[16:29:21] [Server thread/INFO]: Registered command summon with permission node vanilla.command.summon
+[16:29:21] [Server thread/INFO]: Registered command setblock with permission node vanilla.command.setblock
+[16:29:21] [Server thread/INFO]: Registered command testforblock with permission node vanilla.command.testforblock
+[16:29:21] [Server thread/INFO]: Registered command tellraw with permission node vanilla.command.tellraw
+[16:29:21] [Server thread/INFO]: Registered command netstat with permission node vanilla.command.netstat
+[16:29:21] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[16:29:21] [Server thread/INFO]: Applying holder lookups
+[16:29:21] [Server thread/INFO]: Holder lookups applied
+[16:29:22] [Server thread/INFO]: Mapping loaded 11 packages, 7841 classes, 26711 fields, 53884 methods, flags 1ffa
+[16:29:23] [Server thread/INFO]: Loaded inheritance map of 895 classes
+[16:29:23] [Server thread/WARN]: =============================================================
+[16:29:23] [Server thread/WARN]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[16:29:23] [Server thread/WARN]: Offendor: net/md_5/specialsource/SpecialSource.main([Ljava/lang/String;)V
+[16:29:23] [Server thread/WARN]: Use FMLCommonHandler.exitJava instead
+[16:29:23] [Server thread/WARN]: =============================================================
+[16:29:23] [Server thread/WARN]: =============================================================
+[16:29:23] [Server thread/WARN]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[16:29:23] [Server thread/WARN]: Offendor: net/md_5/specialsource/SpecialSource.main([Ljava/lang/String;)V
+[16:29:23] [Server thread/WARN]: Use FMLCommonHandler.exitJava instead
+[16:29:23] [Server thread/WARN]: =============================================================
+[16:29:23] [Server thread/WARN]: =============================================================
+[16:29:23] [Server thread/WARN]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[16:29:23] [Server thread/WARN]: Offendor: net/md_5/specialsource/SpecialSource.main([Ljava/lang/String;)V
+[16:29:23] [Server thread/WARN]: Use FMLCommonHandler.exitJava instead
+[16:29:23] [Server thread/WARN]: =============================================================
+[16:29:23] [Server thread/WARN]: =============================================================
+[16:29:23] [Server thread/WARN]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[16:29:23] [Server thread/WARN]: Offendor: net/md_5/specialsource/SpecialSource.main([Ljava/lang/String;)V
+[16:29:23] [Server thread/WARN]: Use FMLCommonHandler.exitJava instead
+[16:29:23] [Server thread/WARN]: =============================================================
+[16:29:24] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.3;7a097ca
+[16:29:24] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1.2;e38d98d
+[16:29:24] [Server thread/INFO]: [CraftBook] Loading CraftBook v3.8-SNAPSHOT:3803-e037f90,master
+[16:29:25] [Server thread/INFO]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@5ee35f4e)
+[16:29:25] [Server thread/INFO]: Loading dimension 1 (DIM1) (net.minecraft.server.dedicated.DedicatedServer@5ee35f4e)
+[16:29:25] [Server thread/INFO]: Loading dimension -1 (DIM-1) (net.minecraft.server.dedicated.DedicatedServer@5ee35f4e)
+[16:29:25] [Server thread/INFO]: Preparing start region for level 0
+[16:29:26] [Server thread/INFO]: Preparing spawn area: 15%
+[16:29:27] [Server thread/INFO]: Preparing spawn area: 71%
+[16:29:27] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.3;7a097ca
+[16:29:28] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:29:29] [Server thread/WARN]: [WorldEdit] 
 **********************************************
 ** This WorldEdit version does not fully support your version of Bukkit.
 **
@@ -113,53 +111,36 @@
 ** Please see http://wiki.sk89q.com/wiki/WorldEdit/Bukkit_adapters
 **********************************************
 
-[14:40:48] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1.2;e38d98d
-[14:40:50] [Server thread/INFO]: [WorldGuard] Default configuration file written: /home/minecraft/silverhoof/server/plugins/WorldGuard/config.yml
-[14:40:50] [Server thread/INFO]: [WorldGuard] Default configuration file written: /home/minecraft/silverhoof/server/plugins/WorldGuard/worlds/world/config.yml
-[14:40:50] [Server thread/INFO]: [WorldGuard] Default configuration file written: /home/minecraft/silverhoof/server/plugins/WorldGuard/worlds/world/blacklist.txt
-[14:40:50] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[14:40:50] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[14:40:50] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
-[14:40:50] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[14:40:50] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[14:40:50] [Server thread/INFO]: [WorldGuard] Default configuration file written: /home/minecraft/silverhoof/server/plugins/WorldGuard/worlds/DIM1/config.yml
-[14:40:50] [Server thread/INFO]: [WorldGuard] Default configuration file written: /home/minecraft/silverhoof/server/plugins/WorldGuard/worlds/DIM1/blacklist.txt
-[14:40:50] [Server thread/INFO]: [WorldGuard] (DIM1) TNT ignition is PERMITTED.
-[14:40:50] [Server thread/INFO]: [WorldGuard] (DIM1) Lighters are PERMITTED.
-[14:40:50] [Server thread/INFO]: [WorldGuard] (DIM1) Lava fire is blocked.
-[14:40:50] [Server thread/INFO]: [WorldGuard] (DIM1) Fire spread is UNRESTRICTED.
-[14:40:50] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'DIM1'
-[14:40:50] [Server thread/INFO]: [WorldGuard] Default configuration file written: /home/minecraft/silverhoof/server/plugins/WorldGuard/worlds/DIM-1/config.yml
-[14:40:50] [Server thread/INFO]: [WorldGuard] Default configuration file written: /home/minecraft/silverhoof/server/plugins/WorldGuard/worlds/DIM-1/blacklist.txt
-[14:40:50] [Server thread/INFO]: [WorldGuard] (DIM-1) TNT ignition is PERMITTED.
-[14:40:50] [Server thread/INFO]: [WorldGuard] (DIM-1) Lighters are PERMITTED.
-[14:40:50] [Server thread/INFO]: [WorldGuard] (DIM-1) Lava fire is blocked.
-[14:40:50] [Server thread/INFO]: [WorldGuard] (DIM-1) Fire spread is UNRESTRICTED.
-[14:40:50] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'DIM-1'
-[14:40:50] [Server thread/INFO]: [WorldGuard] Loading region data...
-[14:40:50] [Server thread/INFO]: [WorldGuard] Unloading and saving region data that is currently loaded...
-[14:40:50] [Server thread/INFO]: [WorldGuard] Loading region data for loaded worlds...
-[14:40:50] [Server thread/INFO]: [WorldGuard] Regions saved after UUID migration! This won't happen again unless you change the relevant configuration option in WorldGuard's config.
-[14:40:51] [Server thread/INFO]: [CraftBook] Enabling CraftBook v3.9-SNAPSHOT
-[14:40:51] [Server thread/ERROR]: Error occurred while enabling CraftBook v3.9-SNAPSHOT (Is it up to date?)
-java.lang.NoSuchMethodError: guava10.com.google.common.cache.CacheBuilder.maximumSize(J)Lguava10/com/google/common/cache/CacheBuilder;
-	at com.sk89q.craftbook.util.ItemSyntax.<clinit>(ItemSyntax.java:102) ~[?:?]
-	at com.sk89q.craftbook.bukkit.CraftBookPlugin.onEnable(CraftBookPlugin.java:291) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:316) ~[JavaPlugin.class:1.7.10-R0.1-SNAPSHOT]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:368) [JavaPluginLoader.class:1.7.10-R0.1-SNAPSHOT]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:410) [SimplePluginManager.class:1.7.10-R0.1-SNAPSHOT]
-	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.loadPlugin(CraftServer.java:415) [CraftServer.class:1.7.10-R0.1-SNAPSHOT]
-	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.enablePlugins(CraftServer.java:349) [CraftServer.class:1.7.10-R0.1-SNAPSHOT]
-	at net.minecraft.server.MinecraftServer.func_71243_i(MinecraftServer.java:511) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.func_71222_d(MinecraftServer.java:485) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:445) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:336) [lt.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:631) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_91]
-[14:40:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:40:51] [Server thread/INFO]: Done (14,661s)! For help, type "help" or "?"
-[14:40:51] [Server thread/INFO]: Registered command forge with permission node net.minecraftforge.server.command.ForgeCommand
-[14:40:54] [KCauldron version retrievier/WARN]: Error occured during retriving version
+[16:29:29] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1.2;e38d98d
+[16:29:31] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[16:29:31] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[16:29:31] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[16:29:31] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[16:29:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[16:29:31] [Server thread/INFO]: [WorldGuard] (DIM1) TNT ignition is PERMITTED.
+[16:29:31] [Server thread/INFO]: [WorldGuard] (DIM1) Lighters are PERMITTED.
+[16:29:31] [Server thread/INFO]: [WorldGuard] (DIM1) Lava fire is blocked.
+[16:29:31] [Server thread/INFO]: [WorldGuard] (DIM1) Fire spread is UNRESTRICTED.
+[16:29:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'DIM1'
+[16:29:31] [Server thread/INFO]: [WorldGuard] (DIM-1) TNT ignition is PERMITTED.
+[16:29:31] [Server thread/INFO]: [WorldGuard] (DIM-1) Lighters are PERMITTED.
+[16:29:31] [Server thread/INFO]: [WorldGuard] (DIM-1) Lava fire is blocked.
+[16:29:31] [Server thread/INFO]: [WorldGuard] (DIM-1) Fire spread is UNRESTRICTED.
+[16:29:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'DIM-1'
+[16:29:31] [Server thread/INFO]: [WorldGuard] Loading region data...
+[16:29:32] [Server thread/INFO]: [CraftBook] Enabling CraftBook v3.8-SNAPSHOT:3803-e037f90,master
+[16:29:32] [Server thread/INFO]: [CraftBook] Loading persistent data from YAML!
+[16:29:33] [Server thread/INFO]: [CraftBook] Enumerating chunks for self-triggered components...
+[16:29:33] [Server thread/INFO]: [CraftBook] 625 chunk(s) for 3 world(s) processed (35ms elapsed)
+[16:29:34] [Thread-11/WARN]: [CraftBook] The author of this plugin has misconfigured their Auto Update system
+[16:29:34] [Thread-11/WARN]: [CraftBook] File versions should follow the format 'PluginName vVERSION'
+[16:29:34] [Thread-11/WARN]: [CraftBook] Please notify the author of this error.
+[16:29:34] [Server thread/INFO]: [CraftBook] CraftBook 3.9u10 is the latest version available, and the updatability of it is: FAIL_NOVERSION. You currently have version CraftBook 3.9u10 installed.
+[16:29:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:29:34] [Server thread/INFO]: Done (12,829s)! For help, type "help" or "?"
+[16:29:34] [Server thread/INFO]: Registered command forge with permission node net.minecraftforge.server.command.ForgeCommand
+[16:29:35] [Server thread/WARN]: [CraftBook] §cWarning! You have no mechanics enabled, the plugin will appear to do nothing until a feature is enabled!
+[16:29:36] [KCauldron version retrievier/WARN]: Error occured during retriving version
 java.lang.Throwable
 	at kcauldron.KLog.log(KLog.java:30) [KLog.class:1.7.10-R0.1-SNAPSHOT]
 	at kcauldron.KLog.warning(KLog.java:41) [KLog.class:1.7.10-R0.1-SNAPSHOT]
@@ -255,19 +236,511 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107) ~[CloseableHttpClient.class:4.4.1]
 	at kcauldron.updater.KVersionRetriever.check(KVersionRetriever.java:92) ~[KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
 	... 2 more
-[14:46:12] [Server thread/INFO]: CONSOLE: Stopping the server..[m
-[14:46:12] [Server thread/INFO]: Stopping server
-[14:46:12] [Server thread/INFO]: [CraftBook] Disabling CraftBook v3.9-SNAPSHOT
-[14:46:12] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.1.2;e38d98d
-[14:46:12] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
-[14:46:12] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.3;7a097ca
-[14:46:12] [Server thread/INFO]: Saving players
-[14:46:12] [Server thread/INFO]: Saving worlds
-[14:46:12] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[14:46:12] [Server thread/INFO]: Saving chunks for level 'DIM1'/The End
-[14:46:12] [Server thread/INFO]: Saving chunks for level 'DIM-1'/Nether
-[14:46:12] [Server thread/INFO]: Unloading dimension 0
-[14:46:12] [Server thread/INFO]: Unloading dimension -1
-[14:46:12] [Server thread/INFO]: Unloading dimension 1
-[14:46:12] [Server thread/INFO]: Applying holder lookups
-[14:46:12] [Server thread/INFO]: Holder lookups applied
+[16:34:35] [Server thread/WARN]: [CraftBook] §cWarning! You have no mechanics enabled, the plugin will appear to do nothing until a feature is enabled!
+[16:39:35] [Server thread/WARN]: [CraftBook] §cWarning! You have no mechanics enabled, the plugin will appear to do nothing until a feature is enabled!
+[16:39:36] [KCauldron version retrievier/WARN]: Error occured during retriving version
+java.lang.Throwable
+	at kcauldron.KLog.log(KLog.java:30) [KLog.class:1.7.10-R0.1-SNAPSHOT]
+	at kcauldron.KLog.warning(KLog.java:41) [KLog.class:1.7.10-R0.1-SNAPSHOT]
+	at kcauldron.updater.KVersionRetriever.uncaughtException(KVersionRetriever.java:114) [KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	at kcauldron.updater.KVersionRetriever.check(KVersionRetriever.java:108) [KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	at kcauldron.updater.KVersionRetriever.run(KVersionRetriever.java:69) [KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_91]
+Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1949) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1509) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:979) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:914) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1062) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387) ~[?:1.8.0_91]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[DefaultHttpClientConnectionOperator.class:4.4.1]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[PoolingHttpClientConnectionManager.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[ProtocolExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[RetryExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[RedirectExec.class:4.4.1]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[InternalHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[CloseableHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107) ~[CloseableHttpClient.class:4.4.1]
+	at kcauldron.updater.KVersionRetriever.check(KVersionRetriever.java:92) ~[KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	... 2 more
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:387) ~[?:1.8.0_91]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:292) ~[?:1.8.0_91]
+	at sun.security.validator.Validator.validate(Validator.java:260) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:324) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:229) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1491) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:979) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:914) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1062) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387) ~[?:1.8.0_91]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[DefaultHttpClientConnectionOperator.class:4.4.1]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[PoolingHttpClientConnectionManager.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[ProtocolExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[RetryExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[RedirectExec.class:4.4.1]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[InternalHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[CloseableHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107) ~[CloseableHttpClient.class:4.4.1]
+	at kcauldron.updater.KVersionRetriever.check(KVersionRetriever.java:92) ~[KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	... 2 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141) ~[?:1.8.0_91]
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:126) ~[?:1.8.0_91]
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:280) ~[?:1.8.0_91]
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:382) ~[?:1.8.0_91]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:292) ~[?:1.8.0_91]
+	at sun.security.validator.Validator.validate(Validator.java:260) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:324) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:229) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1491) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:979) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:914) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1062) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387) ~[?:1.8.0_91]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[DefaultHttpClientConnectionOperator.class:4.4.1]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[PoolingHttpClientConnectionManager.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[ProtocolExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[RetryExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[RedirectExec.class:4.4.1]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[InternalHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[CloseableHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107) ~[CloseableHttpClient.class:4.4.1]
+	at kcauldron.updater.KVersionRetriever.check(KVersionRetriever.java:92) ~[KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	... 2 more
+[16:44:35] [Server thread/WARN]: [CraftBook] §cWarning! You have no mechanics enabled, the plugin will appear to do nothing until a feature is enabled!
+[16:49:35] [Server thread/WARN]: [CraftBook] §cWarning! You have no mechanics enabled, the plugin will appear to do nothing until a feature is enabled!
+[16:49:36] [KCauldron version retrievier/WARN]: Error occured during retriving version
+java.lang.Throwable
+	at kcauldron.KLog.log(KLog.java:30) [KLog.class:1.7.10-R0.1-SNAPSHOT]
+	at kcauldron.KLog.warning(KLog.java:41) [KLog.class:1.7.10-R0.1-SNAPSHOT]
+	at kcauldron.updater.KVersionRetriever.uncaughtException(KVersionRetriever.java:114) [KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	at kcauldron.updater.KVersionRetriever.check(KVersionRetriever.java:108) [KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	at kcauldron.updater.KVersionRetriever.run(KVersionRetriever.java:69) [KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_91]
+Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1949) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1509) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:979) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:914) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1062) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387) ~[?:1.8.0_91]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[DefaultHttpClientConnectionOperator.class:4.4.1]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[PoolingHttpClientConnectionManager.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[ProtocolExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[RetryExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[RedirectExec.class:4.4.1]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[InternalHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[CloseableHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107) ~[CloseableHttpClient.class:4.4.1]
+	at kcauldron.updater.KVersionRetriever.check(KVersionRetriever.java:92) ~[KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	... 2 more
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:387) ~[?:1.8.0_91]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:292) ~[?:1.8.0_91]
+	at sun.security.validator.Validator.validate(Validator.java:260) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:324) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:229) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1491) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:979) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:914) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1062) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387) ~[?:1.8.0_91]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[DefaultHttpClientConnectionOperator.class:4.4.1]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[PoolingHttpClientConnectionManager.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[ProtocolExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[RetryExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[RedirectExec.class:4.4.1]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[InternalHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[CloseableHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107) ~[CloseableHttpClient.class:4.4.1]
+	at kcauldron.updater.KVersionRetriever.check(KVersionRetriever.java:92) ~[KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	... 2 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141) ~[?:1.8.0_91]
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:126) ~[?:1.8.0_91]
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:280) ~[?:1.8.0_91]
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:382) ~[?:1.8.0_91]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:292) ~[?:1.8.0_91]
+	at sun.security.validator.Validator.validate(Validator.java:260) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:324) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:229) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1491) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:979) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:914) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1062) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387) ~[?:1.8.0_91]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[DefaultHttpClientConnectionOperator.class:4.4.1]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[PoolingHttpClientConnectionManager.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[ProtocolExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[RetryExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[RedirectExec.class:4.4.1]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[InternalHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[CloseableHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107) ~[CloseableHttpClient.class:4.4.1]
+	at kcauldron.updater.KVersionRetriever.check(KVersionRetriever.java:92) ~[KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	... 2 more
+[16:54:35] [Server thread/WARN]: [CraftBook] §cWarning! You have no mechanics enabled, the plugin will appear to do nothing until a feature is enabled!
+[16:59:35] [Server thread/WARN]: [CraftBook] §cWarning! You have no mechanics enabled, the plugin will appear to do nothing until a feature is enabled!
+[16:59:36] [KCauldron version retrievier/WARN]: Error occured during retriving version
+java.lang.Throwable
+	at kcauldron.KLog.log(KLog.java:30) [KLog.class:1.7.10-R0.1-SNAPSHOT]
+	at kcauldron.KLog.warning(KLog.java:41) [KLog.class:1.7.10-R0.1-SNAPSHOT]
+	at kcauldron.updater.KVersionRetriever.uncaughtException(KVersionRetriever.java:114) [KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	at kcauldron.updater.KVersionRetriever.check(KVersionRetriever.java:108) [KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	at kcauldron.updater.KVersionRetriever.run(KVersionRetriever.java:69) [KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_91]
+Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1949) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1509) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:979) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:914) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1062) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387) ~[?:1.8.0_91]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[DefaultHttpClientConnectionOperator.class:4.4.1]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[PoolingHttpClientConnectionManager.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[ProtocolExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[RetryExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[RedirectExec.class:4.4.1]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[InternalHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[CloseableHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107) ~[CloseableHttpClient.class:4.4.1]
+	at kcauldron.updater.KVersionRetriever.check(KVersionRetriever.java:92) ~[KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	... 2 more
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:387) ~[?:1.8.0_91]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:292) ~[?:1.8.0_91]
+	at sun.security.validator.Validator.validate(Validator.java:260) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:324) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:229) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1491) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:979) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:914) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1062) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387) ~[?:1.8.0_91]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[DefaultHttpClientConnectionOperator.class:4.4.1]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[PoolingHttpClientConnectionManager.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[ProtocolExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[RetryExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[RedirectExec.class:4.4.1]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[InternalHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[CloseableHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107) ~[CloseableHttpClient.class:4.4.1]
+	at kcauldron.updater.KVersionRetriever.check(KVersionRetriever.java:92) ~[KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	... 2 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141) ~[?:1.8.0_91]
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:126) ~[?:1.8.0_91]
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:280) ~[?:1.8.0_91]
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:382) ~[?:1.8.0_91]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:292) ~[?:1.8.0_91]
+	at sun.security.validator.Validator.validate(Validator.java:260) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:324) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:229) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1491) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:979) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:914) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1062) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387) ~[?:1.8.0_91]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[DefaultHttpClientConnectionOperator.class:4.4.1]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[PoolingHttpClientConnectionManager.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[ProtocolExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[RetryExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[RedirectExec.class:4.4.1]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[InternalHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[CloseableHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107) ~[CloseableHttpClient.class:4.4.1]
+	at kcauldron.updater.KVersionRetriever.check(KVersionRetriever.java:92) ~[KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	... 2 more
+[17:04:35] [Server thread/WARN]: [CraftBook] §cWarning! You have no mechanics enabled, the plugin will appear to do nothing until a feature is enabled!
+[17:09:35] [Server thread/WARN]: [CraftBook] §cWarning! You have no mechanics enabled, the plugin will appear to do nothing until a feature is enabled!
+[17:09:37] [KCauldron version retrievier/WARN]: Error occured during retriving version
+java.lang.Throwable
+	at kcauldron.KLog.log(KLog.java:30) [KLog.class:1.7.10-R0.1-SNAPSHOT]
+	at kcauldron.KLog.warning(KLog.java:41) [KLog.class:1.7.10-R0.1-SNAPSHOT]
+	at kcauldron.updater.KVersionRetriever.uncaughtException(KVersionRetriever.java:114) [KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	at kcauldron.updater.KVersionRetriever.check(KVersionRetriever.java:108) [KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	at kcauldron.updater.KVersionRetriever.run(KVersionRetriever.java:69) [KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_91]
+Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1949) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1509) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:979) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:914) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1062) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387) ~[?:1.8.0_91]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[DefaultHttpClientConnectionOperator.class:4.4.1]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[PoolingHttpClientConnectionManager.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[ProtocolExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[RetryExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[RedirectExec.class:4.4.1]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[InternalHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[CloseableHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107) ~[CloseableHttpClient.class:4.4.1]
+	at kcauldron.updater.KVersionRetriever.check(KVersionRetriever.java:92) ~[KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	... 2 more
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:387) ~[?:1.8.0_91]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:292) ~[?:1.8.0_91]
+	at sun.security.validator.Validator.validate(Validator.java:260) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:324) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:229) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1491) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:979) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:914) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1062) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387) ~[?:1.8.0_91]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[DefaultHttpClientConnectionOperator.class:4.4.1]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[PoolingHttpClientConnectionManager.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[ProtocolExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[RetryExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[RedirectExec.class:4.4.1]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[InternalHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[CloseableHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107) ~[CloseableHttpClient.class:4.4.1]
+	at kcauldron.updater.KVersionRetriever.check(KVersionRetriever.java:92) ~[KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	... 2 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141) ~[?:1.8.0_91]
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:126) ~[?:1.8.0_91]
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:280) ~[?:1.8.0_91]
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:382) ~[?:1.8.0_91]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:292) ~[?:1.8.0_91]
+	at sun.security.validator.Validator.validate(Validator.java:260) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:324) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:229) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1491) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:979) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:914) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1062) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387) ~[?:1.8.0_91]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[DefaultHttpClientConnectionOperator.class:4.4.1]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[PoolingHttpClientConnectionManager.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[ProtocolExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[RetryExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[RedirectExec.class:4.4.1]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[InternalHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[CloseableHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107) ~[CloseableHttpClient.class:4.4.1]
+	at kcauldron.updater.KVersionRetriever.check(KVersionRetriever.java:92) ~[KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	... 2 more
+[17:14:35] [Server thread/WARN]: [CraftBook] §cWarning! You have no mechanics enabled, the plugin will appear to do nothing until a feature is enabled!
+[17:19:35] [Server thread/WARN]: [CraftBook] §cWarning! You have no mechanics enabled, the plugin will appear to do nothing until a feature is enabled!
+[17:19:37] [KCauldron version retrievier/WARN]: Error occured during retriving version
+java.lang.Throwable
+	at kcauldron.KLog.log(KLog.java:30) [KLog.class:1.7.10-R0.1-SNAPSHOT]
+	at kcauldron.KLog.warning(KLog.java:41) [KLog.class:1.7.10-R0.1-SNAPSHOT]
+	at kcauldron.updater.KVersionRetriever.uncaughtException(KVersionRetriever.java:114) [KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	at kcauldron.updater.KVersionRetriever.check(KVersionRetriever.java:108) [KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	at kcauldron.updater.KVersionRetriever.run(KVersionRetriever.java:69) [KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_91]
+Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1949) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1509) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:979) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:914) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1062) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387) ~[?:1.8.0_91]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[DefaultHttpClientConnectionOperator.class:4.4.1]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[PoolingHttpClientConnectionManager.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[ProtocolExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[RetryExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[RedirectExec.class:4.4.1]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[InternalHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[CloseableHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107) ~[CloseableHttpClient.class:4.4.1]
+	at kcauldron.updater.KVersionRetriever.check(KVersionRetriever.java:92) ~[KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	... 2 more
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:387) ~[?:1.8.0_91]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:292) ~[?:1.8.0_91]
+	at sun.security.validator.Validator.validate(Validator.java:260) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:324) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:229) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1491) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:979) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:914) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1062) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387) ~[?:1.8.0_91]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[DefaultHttpClientConnectionOperator.class:4.4.1]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[PoolingHttpClientConnectionManager.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[ProtocolExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[RetryExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[RedirectExec.class:4.4.1]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[InternalHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[CloseableHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107) ~[CloseableHttpClient.class:4.4.1]
+	at kcauldron.updater.KVersionRetriever.check(KVersionRetriever.java:92) ~[KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	... 2 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141) ~[?:1.8.0_91]
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:126) ~[?:1.8.0_91]
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:280) ~[?:1.8.0_91]
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:382) ~[?:1.8.0_91]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:292) ~[?:1.8.0_91]
+	at sun.security.validator.Validator.validate(Validator.java:260) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:324) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:229) ~[?:1.8.0_91]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1491) ~[?:1.8.0_91]
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:979) ~[?:1.8.0_91]
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:914) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1062) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403) ~[?:1.8.0_91]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387) ~[?:1.8.0_91]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353) ~[SSLConnectionSocketFactory.class:4.4.1]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[DefaultHttpClientConnectionOperator.class:4.4.1]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[PoolingHttpClientConnectionManager.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[MainClientExec.class:4.4.1]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[ProtocolExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[RetryExec.class:4.4.1]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[RedirectExec.class:4.4.1]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[InternalHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[CloseableHttpClient.class:4.4.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107) ~[CloseableHttpClient.class:4.4.1]
+	at kcauldron.updater.KVersionRetriever.check(KVersionRetriever.java:92) ~[KVersionRetriever.class:1.7.10-R0.1-SNAPSHOT]
+	... 2 more
+[17:24:35] [Server thread/WARN]: [CraftBook] §cWarning! You have no mechanics enabled, the plugin will appear to do nothing until a feature is enabled!
+[17:29:13] [Server thread/INFO]: CONSOLE: Stopping the server..[m
+[17:29:13] [Server thread/INFO]: Stopping server
+[17:29:13] [Server thread/INFO]: [CraftBook] Disabling CraftBook v3.8-SNAPSHOT:3803-e037f90,master
+[17:29:13] [Server thread/INFO]: [CraftBook] Saving persistent data to YAML!
+[17:29:13] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.1.2;e38d98d
+[17:29:13] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[17:29:13] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.3;7a097ca
+[17:29:13] [Server thread/INFO]: Saving players
+[17:29:13] [Server thread/INFO]: Saving worlds
+[17:29:13] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[17:29:13] [Server thread/INFO]: Saving chunks for level 'DIM1'/The End
+[17:29:13] [Server thread/INFO]: Saving chunks for level 'DIM-1'/Nether
+[17:29:13] [Server thread/INFO]: Unloading dimension 0
+[17:29:13] [Server thread/INFO]: Unloading dimension -1
+[17:29:13] [Server thread/INFO]: Unloading dimension 1
+[17:29:13] [Server thread/INFO]: Applying holder lookups
+[17:29:13] [Server thread/INFO]: Holder lookups applied
