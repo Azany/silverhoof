@@ -7,4 +7,4 @@ then
 	exit
 fi
 
-java -Xmx1024M -cp Launcher.jar:LauncherAuthlib.jar:KCauldron.jar cpw.mods.fml.relauncher.ServerLaunchWrapper
+java -Xmx1024M -cp Launcher.jar:LauncherAuthlib.jar:Thermos.jar cpw.mods.fml.relauncher.ServerLaunchWrapper
